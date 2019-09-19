@@ -1,29 +1,33 @@
 body{
-   background-image: url("/Users/mac/Crystals-Collector-Game/assests/images/bgCrystals.jpg");
+   background-image: url("./assests/images/newBgcrys.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
    text-align: center;
 }
 .header{
     /* text-align: center;
     font-size: 100%;
     font-weight: bold; */
+    /* background-image: url(./assests/images/newBgcrys.jpg); */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 35px;
-    color: white;
+    color: plum;
     text-align: center;
 
 }
 .targetNum{
-    color: white;
-    font-size: 150%; 
+    font-size: 170%;
+    color: purple;
+    font-weight: bold;
 
 }
 
 .scores{
-background-color: aqua;
-color: black;
+color: purple;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 15px;
+font-size: 150%; 
 
 
 }
@@ -35,13 +39,15 @@ font-size: 15px;
 }
 
 .total{
-    font-size: 150%;
-    color: white;
+    font-size: 250%;
+    color: purple;
+    font-weight: bold;
+
 }
 
 .crystal{
-    height: 300px;
-    width: 300px;
+    height: 220px;
+    width: 220px;
     object-fit: contain;
     text-align: center;
 
