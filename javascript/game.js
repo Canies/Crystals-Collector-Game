@@ -50,7 +50,7 @@ $(document).on('click', '.crystal', function () {
 	console.log(totalScore, random);
 	if ((totalScore == random) && (totalScore!=0)) {
 		console.log(totalScore, random);
-		alert("Congrats, You can Add!")
+		alert("Congrats, You can do Math!")
 		wins++;
 		reset()
 
