@@ -32,7 +32,7 @@ function reset() {
 generateCrystals();
 
 $(document).on('click', '.crystal', function () {
-	
+
 	var crystalValue = parseInt($(this).attr('data-crystal-value'));
 	console.log(crystalValue)
 	totalScore += crystalValue;
@@ -44,15 +44,18 @@ $(document).on('click', '.crystal', function () {
 		// HTMLFormControlsCollection.log("Loss")
 		alert("Bad Math Buddy!")
 		losses++;
+		$('#losses').text(losses);
 		reset()
+		console.log(losses)
 
 	}
 	console.log(totalScore, random);
-	if ((totalScore == random) && (totalScore!=0)) {
+	if (totalScore === random) {
 		console.log(totalScore, random);
 		alert("Congrats, You can do Math!")
 		wins++;
+		$('#wins').text(wins);
 		reset()
-
+		console.log(wins)
 	}
 });
